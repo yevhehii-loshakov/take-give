@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using BeriDavay.Website.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -32,6 +28,8 @@ namespace BeriDavay.Website
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
+            services.Configure<SendGridSettings>(Configuration.GetSection("SendGridSettings"));
+
             // Register the Swagger generator, defining 1 or more Swagger documents
             services.AddSwaggerGen(c =>
             {
@@ -55,6 +53,8 @@ namespace BeriDavay.Website
                 c.RoutePrefix = string.Empty;
             });
 
+            // DataContext
+            
 
             if (env.IsDevelopment())
             {

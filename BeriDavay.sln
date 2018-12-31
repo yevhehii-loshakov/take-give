@@ -5,7 +5,11 @@ VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeriDavay.Website", "BeriDavay.Website\BeriDavay.Website.csproj", "{55C8A299-315E-482B-83BF-73CCE8BEC0F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeriDavay.DataLayer", "BeriDavay.DataLayer\BeriDavay.DataLayer.csproj", "{3315908B-22B6-4A24-B99D-F8015357ABCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeriDavay.DataLayer", "BeriDavay.DataLayer\BeriDavay.DataLayer.csproj", "{3315908B-22B6-4A24-B99D-F8015357ABCC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeriDavay.Core", "Core\BeriDavay.Core.csproj", "{A995182E-F94B-4F2E-A6B4-1FF774C9A184}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeriDavay.Domain", "DeriDavay.Domain\BeriDavay.Domain.csproj", "{AE7EC68E-175A-44F1-B4E6-B2DA2002BB35}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{3315908B-22B6-4A24-B99D-F8015357ABCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3315908B-22B6-4A24-B99D-F8015357ABCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3315908B-22B6-4A24-B99D-F8015357ABCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A995182E-F94B-4F2E-A6B4-1FF774C9A184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A995182E-F94B-4F2E-A6B4-1FF774C9A184}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A995182E-F94B-4F2E-A6B4-1FF774C9A184}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A995182E-F94B-4F2E-A6B4-1FF774C9A184}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE7EC68E-175A-44F1-B4E6-B2DA2002BB35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE7EC68E-175A-44F1-B4E6-B2DA2002BB35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE7EC68E-175A-44F1-B4E6-B2DA2002BB35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE7EC68E-175A-44F1-B4E6-B2DA2002BB35}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

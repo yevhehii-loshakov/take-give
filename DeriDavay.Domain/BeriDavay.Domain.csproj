@@ -5,11 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="EntityFramework" Version="6.2.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Core\BeriDavay.Core.csproj" />
+    <Folder Include="DBModels\" />
   </ItemGroup>
 
 </Project>
